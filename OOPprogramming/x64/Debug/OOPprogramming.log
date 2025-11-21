@@ -1,0 +1,13 @@
+﻿  Activator.cpp
+  Character.cpp
+  CollisionManager.cpp
+  GameManager.cpp
+  InputManager.cpp
+  Level.cpp
+  Создание кода...
+C:\Users\yaros\source\repos\OOPprogramming\Level.cpp(75,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\yaros\source\repos\OOPprogramming\Level.cpp(76,22): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\yaros\source\repos\OOPprogramming\GameManager.cpp(97,1): warning C4715: GameManager::checkLeverActivation: значение возвращается не при всех путях выполнения
+C:\Users\yaros\source\repos\OOPprogramming\CollisionManager.cpp(20,1): warning C4715: CollisionManager::checkTrapCollision: значение возвращается не при всех путях выполнения
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+C:\Users\yaros\source\repos\OOPprogramming\x64\Debug\OOPprogramming.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
