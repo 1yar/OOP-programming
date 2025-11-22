@@ -1,0 +1,7 @@
+.vs/
+*.suo
+*.user
+ipch/
+*.vcxproj.user
+Browse.VC.db
+DocumentLayout.json
