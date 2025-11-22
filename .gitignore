@@ -1,0 +1,40 @@
+# Создаем .gitignore с содержимым для C++/Visual Studio
+cat > .gitignore << EOF
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sdf
+*.opensdf
+*.suo
+*.db
+
+# Build directories
+x64/
+x86/
+Debug/
+Release/
+Build/
+bin/
+obj/
+
+# Compiled files
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
+*.idb
+*.ipch
+*.tlog
+*.log
+
+# Precompiled headers
+*.pch
+
+# Other
+*.aps
+*.ncb
+*.sbr
+EOF
